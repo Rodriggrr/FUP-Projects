@@ -5,7 +5,7 @@ using namespace std;
 int error(){ 
   cout << "ERRO: Caractere/s não esperado/s inserido/s. Repita.\n";
      cin.clear();                                            
-     cin.ignore(numeric_limits<std::streamsize>::max(), '\n');//caracteres não esperados. retirado da internet.
+     cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
   return 0;
   }
 int main(){  
