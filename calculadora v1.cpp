@@ -27,7 +27,7 @@ char varEstetc;
  cout << "Escolha:\n1 para SOMA;\n2 para MULTIPLICAÇÃO;\n3 para SUBTRAÇÃO;\n4 para DIVISÃO.\n";
  while (true){
    if (cin >> direcionador, 4 >= direcionador){ 
-   if (direcionador > 0){                       //para a variável "direcionador". deve ser maior do que 0 e menor ou igual a 4.
+   if (direcionador > 0){                     
      break;
    } else {
      error();
@@ -35,7 +35,7 @@ char varEstetc;
    } else {
      error();
   }}
-  if (direcionador == 1){                  //lendo o previamente definido
+  if (direcionador == 1){                 
    cout << usleep(250000) << "\b \b•\n" << usleep(250000) << "\b \bEscolhido: SOMA.";         
   }                                        
   if (direcionador == 2){                  
@@ -82,7 +82,7 @@ char varEstetc;
   if (cin >> varEstetc){;
    if(varEstetc == 's'){
     write(1,"\E[H\E[2J",7); //argumentos para limpar o console. retirados da internet.
-    goto reinicio;}  //comando goto, utilizado para ir ao ponto de controle "reinicio" previamente declarado. (linha 27).
+    goto reinicio;}         //comando goto, utilizado para ir ao ponto de controle "reinicio" previamente declarado. (linha 27).
    if(varEstetc == 'n'){
     cout << "Processo encerrado.";
     return 0;
