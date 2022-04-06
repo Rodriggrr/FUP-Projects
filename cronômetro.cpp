@@ -22,7 +22,6 @@ int main()
              << setw(2) << setfill('0') << seg << " : "
              << setw(3) << setfill('0') << mili
              << usleep(1000) << "\b \b\n" << "\x1b[1A";
-
     }
     return 0;
 }
