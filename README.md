@@ -1,2 +1,2 @@
 # FUP-Projects
-Just some School programs that i made and still making hehe :)
+Just some college programs that i do hehe :)
